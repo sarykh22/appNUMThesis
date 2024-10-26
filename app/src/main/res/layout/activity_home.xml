@@ -14,7 +14,7 @@
         android:background="@drawable/round_conner"
         app:itemActiveIndicatorStyle="@style/MaterialAlertDialog.Material3"
         app:itemIconSize="40dp"
-        app:itemIconTint="@color/white"
+        app:itemIconTint="@android:color/white"
         app:itemTextAppearanceActive="@style/Animation.Design.BottomSheetDialog"
         app:itemTextAppearanceInactive="@style/Animation.Design.BottomSheetDialog"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,14 +23,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1"
         app:menu="@menu/navigation_button" >
-
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 
     <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView"
-            android:name="com.example.navigationtesting.HomeFragment"
+            android:name="com.example.appnumthesis.HomeFragment"
             android:layout_width="411dp"
             android:layout_height="652dp"
             app:layout_constraintEnd_toEndOf="parent"
