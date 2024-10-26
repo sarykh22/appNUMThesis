@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (userEdt.getText().toString().isEmpty() || passEdt.getText().toString().isEmpty()) {
                     Toast.makeText(LoginActivity.this, "Please fill in your username and password", Toast.LENGTH_SHORT).show();
                 } else if (userEdt.getText().toString().equals("test") && passEdt.getText().toString().equals("test")) {
-                    startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
 
                 }
             }
